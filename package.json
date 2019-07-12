@@ -1,0 +1,25 @@
+{
+  "name": "cognitive-red-tools",
+  "version": "1.0.0",
+  "description": "Node red flows for cognitive computing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-red": "^0.19.1",
+    "dotenv": "^6.0.0",
+    "node-red-auth-github": "^0.1.0",
+    "request": "^2.88.0",
+    "dialogflow": "^0.6.0",
+    "fs-extra": "^7.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "9"
+  },
+  "author": "",
+  "license": "ISC"
+}
